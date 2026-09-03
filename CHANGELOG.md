@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1 - 2026-09-03
+
+- Replace the opaque brand image with a transparent, small-size-friendly icon.
+- Add a 512 px high-resolution icon variant.
+
 ## 0.1.0 - 2026-09-03
 
 - Initial read-only BLANCO Smart Home Cloud integration.

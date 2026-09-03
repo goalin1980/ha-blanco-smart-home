@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Water drop with cloud connection">
-  <path fill="#1687B8" d="M256 32C202 116 112 218 112 326c0 80 64 144 144 144s144-64 144-144C400 218 310 116 256 32Z"/>
-  <path fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-width="28" d="M190 306c35-35 97-35 132 0M220 344c20-20 52-20 72 0"/>
-  <circle cx="256" cy="386" r="17" fill="#FFFFFF"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Smart water cloud</title>
+  <path fill="#1187B1" d="M256 24C222 80 92 220 92 334c0 91 73 154 164 154s164-63 164-154C420 220 290 80 256 24Z"/>
+  <path fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-width="32" d="M160 294c53-53 139-53 192 0M207 341c27-27 71-27 98 0"/>
+  <circle cx="256" cy="390" r="19" fill="#FFFFFF"/>
 </svg>

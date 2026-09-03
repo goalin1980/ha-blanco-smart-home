@@ -10,5 +10,5 @@
   "issue_tracker": "https://github.com/goalin1980/ha-blanco-smart-home/issues",
   "loggers": ["blanco_smart_home_api_client"],
   "requirements": ["blanco-smart-home-api-client==1.1.0"],
-  "version": "0.1.0"
+  "version": "0.1.1"
 }
