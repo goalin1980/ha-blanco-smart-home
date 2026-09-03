@@ -1,0 +1,76 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "Dieses BLANCO-Gerät ist bereits eingerichtet.",
+      "reauth_successful": "Der BLANCO-Cloud-Zugriff wurde erfolgreich wiederhergestellt."
+    },
+    "error": {
+      "access_not_granted": "Der Zugriff wurde nicht freigegeben. Aktiviere Smart Home/RCA in der BLANCO UNIT App in der Nähe des Geräts und versuche es innerhalb von fünf Minuten erneut.",
+      "cannot_connect": "Die BLANCO Smart Home API konnte nicht erreicht werden.",
+      "device_type_not_supported": "BLANCO hat diesen Gerätetyp derzeit nicht für Smart Home freigeschaltet.",
+      "invalid_auth": "Seriennummer oder Servicecode ist ungültig.",
+      "unknown": "Ein unerwarteter Fehler ist aufgetreten."
+    },
+    "step": {
+      "reauth_confirm": {
+        "description": "Aktiviere Smart Home/RCA erneut in der BLANCO UNIT App, während du dich in der Nähe des Geräts befindest. Fahre innerhalb von fünf Minuten fort, um den Zugriff wiederherzustellen.",
+        "title": "BLANCO-Cloud-Zugriff wiederherstellen"
+      },
+      "user": {
+        "data": {
+          "serial": "Seriennummer",
+          "service_code": "Servicecode"
+        },
+        "data_description": {
+          "serial": "Die Seriennummer auf dem Typenschild. Führende Nullen sind relevant.",
+          "service_code": "Steht in BLANCO UNIT unter Geräteeinstellungen → Smart Home. Er wird einmal verwendet und nicht gespeichert."
+        },
+        "description": "Öffne in BLANCO UNIT die Geräteeinstellungen und aktiviere Smart Home/RCA, während du in Bluetooth-Reichweite bist. Gib anschließend innerhalb von fünf Minuten Seriennummer und Servicecode ein.",
+        "title": "BLANCO-Wassersystem verbinden"
+      }
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "absence_mode": { "name": "Abwesenheitsmodus" },
+      "connected": { "name": "Cloud-Verbindung" },
+      "has_problem": { "name": "Problem" },
+      "hot_water_enabled": { "name": "Heißwassermodus" }
+    },
+    "sensor": {
+      "co2_rest": { "name": "Verbleibendes CO₂" },
+      "error_count_critical": { "name": "Kritische Fehler" },
+      "error_count_warning": { "name": "Warnungen" },
+      "filter_rest": { "name": "Verbleibende Filterkapazität" },
+      "filter_remaining_days": { "name": "Verbleibende Filterzeit" },
+      "filter_remaining_volume": { "name": "Verbleibendes Filtervolumen" },
+      "last_dispensing": { "name": "Letzte Ausgabe" },
+      "last_dispensing_time": { "name": "Zeitpunkt der letzten Ausgabe" },
+      "last_water_type": {
+        "name": "Letzte Wasserart",
+        "state": {
+          "classic": "Sprudelnd",
+          "hot": "Heiß",
+          "medium": "Medium",
+          "still": "Still",
+          "undef": "Unbekannt"
+        }
+      },
+      "online": { "name": "Zuletzt online" },
+      "set_point_cooling": { "name": "Solltemperatur Kaltwasser" },
+      "set_point_heating": { "name": "Solltemperatur Heißwasser" },
+      "water_month": { "name": "Wasser diesen Monat" },
+      "water_today": { "name": "Wasser heute" },
+      "water_week": { "name": "Wasser diese Woche" },
+      "water_year": { "name": "Wasser dieses Jahr" }
+    }
+  },
+  "exceptions": {
+    "authentication_failed": {
+      "message": "Die BLANCO-Cloud-Authentifizierung ist fehlgeschlagen. Aktiviere Smart Home/RCA in BLANCO UNIT und authentifiziere die Integration erneut."
+    },
+    "update_failed": {
+      "message": "Kein BLANCO-Geräteendpunkt konnte aktualisiert werden."
+    }
+  }
+}

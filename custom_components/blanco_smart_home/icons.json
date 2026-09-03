@@ -1,0 +1,29 @@
+{
+  "entity": {
+    "binary_sensor": {
+      "absence_mode": { "default": "mdi:home-export-outline" },
+      "connected": { "default": "mdi:cloud-check-outline" },
+      "has_problem": { "default": "mdi:alert-circle-outline" },
+      "hot_water_enabled": { "default": "mdi:kettle-steam-outline" }
+    },
+    "sensor": {
+      "co2_rest": { "default": "mdi:gas-cylinder" },
+      "error_count_critical": { "default": "mdi:alert-circle-outline" },
+      "error_count_warning": { "default": "mdi:alert-outline" },
+      "filter_rest": { "default": "mdi:water-percent" },
+      "filter_remaining_days": { "default": "mdi:calendar-clock" },
+      "filter_remaining_volume": { "default": "mdi:water" },
+      "last_dispensing": { "default": "mdi:cup-water" },
+      "last_dispensing_time": { "default": "mdi:clock-outline" },
+      "last_water_type": { "default": "mdi:water-outline" },
+      "online": { "default": "mdi:clock-check-outline" },
+      "set_point_cooling": { "default": "mdi:snowflake-thermometer" },
+      "set_point_heating": { "default": "mdi:thermometer-high" },
+      "water_month": { "default": "mdi:water" },
+      "water_today": { "default": "mdi:water" },
+      "water_week": { "default": "mdi:water" },
+      "water_year": { "default": "mdi:water" }
+    }
+  }
+}
+

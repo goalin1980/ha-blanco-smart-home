@@ -1,0 +1,14 @@
+{
+  "domain": "blanco_smart_home",
+  "name": "BLANCO Smart Home Cloud",
+  "codeowners": ["@goalin1980"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/goalin1980/ha-blanco-smart-home#readme",
+  "integration_type": "device",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/goalin1980/ha-blanco-smart-home/issues",
+  "loggers": ["blanco_smart_home_api_client"],
+  "requirements": ["blanco-smart-home-api-client==1.1.0"],
+  "version": "0.1.0"
+}
